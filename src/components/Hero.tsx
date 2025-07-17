@@ -46,7 +46,7 @@ const Hero: React.FC = () => {
           <div className="text-center md:text-left animate-fade-in-up">
             <h1 className="text-4xl md:text-6xl font-bold mb-4 leading-tight hover:scale-105 transition-transform duration-500 cursor-default">
               Melangkah Keren,<br />
-              <span className="text-gray-300 hover:text-yellow-400 transition-colors duration-300">Harga Santai, Style Maksimal!</span>
+              <span className="text-gray-300 hover:text-yellow-400 transition-colors duration-300">Harga Santai!</span>
             </h1>
             
             <p className="text-xl md:text-2xl mb-8 text-gray-300 max-w-2xl mx-auto animate-fade-in-up delay-300 hover:text-white transition-colors duration-300">
