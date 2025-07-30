@@ -45,12 +45,12 @@ const Hero: React.FC = () => {
         <div className="grid md:grid-cols-2 gap-12 lg:gap-16 xl:gap-20 items-center w-full max-w-7xl mx-auto">
           <div className="text-center md:text-left animate-fade-in-up">
             <h1 className="text-4xl md:text-6xl font-bold mb-4 leading-tight hover:scale-105 transition-transform duration-500 cursor-default">
-              Langkah Futuristik,<br />
-              <span className="text-gray-300 hover:text-yellow-400 transition-colors duration-300">Harga Bersahabat!</span>
+              Melangkah Keren,<br />
+              <span className="text-gray-300 hover:text-yellow-400 transition-colors duration-300">Harga Santai!</span>
             </h1>
             
             <p className="text-xl md:text-2xl mb-8 text-gray-300 max-w-2xl mx-auto animate-fade-in-up delay-300 hover:text-white transition-colors duration-300">
-              Sepatu premium ramah lingkungan dengan teknologi terdepan untuk generasi masa depan
+              Sepatu kekinian, eco-friendly, siap nemenin lo tampil beda & makin pede. Upgrade gaya lo bareng teknologi terbaru!
             </p>
 
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 mb-8 max-w-md mx-auto md:mx-0 animate-fade-in-up delay-500 hover:bg-white/20 hover:scale-105 transition-all duration-300 border border-white/20 hover:border-yellow-400/50 hover:shadow-2xl">

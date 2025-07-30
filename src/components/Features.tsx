@@ -10,29 +10,29 @@ const Features: React.FC = () => {
     {
       icon: <Leaf className="h-8 w-8 text-green-500" />,
       title: "100% Eco-Friendly",
-      description: "Dibuat dari bahan daur ulang premium yang ramah lingkungan",
-      details: "Material inovatif dari plastik daur ulang dan serat bambu organik. Proses produksi zero waste dengan sertifikat internasional. Setiap pembelian membantu mengurangi 5kg sampah plastik dari lautan.",
+      description: "Sepatu ramah bumi, biar gaya lo makin keren tanpa nyampah!",
+      details: "Dibikin dari plastik daur ulang & serat bambu, super eco! Produksi zero waste, udah certified internasional. Setiap beli, lo bantu ngurangin 5kg sampah plastik di laut. Keren kan, bro/sis?",
       image: "https://images.pexels.com/photos/2529157/pexels-photo-2529157.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
       icon: <Shield className="h-8 w-8 text-blue-500" />,
       title: "Tahan Lama & Waterproof",
-      description: "Teknologi anti-air dan anti-bakteri untuk perlindungan maksimal",
-      details: "Coating khusus yang tahan air hingga 100% dan anti-bakteri. Sole yang tahan aus hingga 50,000 langkah. Garansi 2 tahun untuk kualitas terbaik.",
+      description: "Kena hujan? Santai, sepatu lo anti air & anti bau, siap tempur kapan aja!",
+      details: "Lapisan waterproof & anti-bakteri, kaki tetap fresh walau hujan badai. Sol kuat, tahan sampe 50.000 langkah (jalan-jalan terus juga aman). Garansi 2 tahun, no worry no drama!",
       image: "https://images.pexels.com/photos/1464625/pexels-photo-1464625.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
       icon: <Zap className="h-8 w-8 text-yellow-500" />,
       title: "Teknologi Smart Comfort",
-      description: "Sistem ventilasi pintar yang menjaga kaki tetap kering dan nyaman",
-      details: "Air circulation system dengan 360° ventilation. Memory foam yang menyesuaikan bentuk kaki. Teknologi moisture-wicking untuk kenyamanan sepanjang hari.",
+      description: "Kaki adem, nggak bau, nyaman seharian. Udah kayak sepatu sultan!",
+      details: "Ventilasi 360°, memory foam empuk ngikutin bentuk kaki lo. Teknologi anti-lembab, nggak ada lagi drama kaki basah/gerah. Nyaman buat nongkrong sampe marathon Netflix.",
       image: "https://images.pexels.com/photos/2529146/pexels-photo-2529146.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
       icon: <Heart className="h-8 w-8 text-red-500" />,
       title: "Desain Futuristik",
-      description: "Gaya modern yang instagramable dan cocok untuk semua aktivitas",
-      details: "Desain eksklusif yang dipatenkan dengan 15 pilihan warna trendy. Cocok untuk casual, olahraga, dan acara formal. Sudah dipercaya 10,000+ influencer Indonesia.",
+      description: "Style kekinian, siap jadi pusat perhatian di IG & TikTok!",
+      details: "Desain eksklusif, 15 warna hype abis. Cocok buat hangout, olahraga, sampe kondangan. Udah dipake 10.000+ influencer, lo kapan?",
       image: "https://images.pexels.com/photos/2529149/pexels-photo-2529149.jpeg?auto=compress&cs=tinysrgb&w=400"
     }
   ];

@@ -38,7 +38,7 @@ const ProductCatalog: React.FC = () => {
       discount: 50,
       rating: 4.8,
       reviews: 189,
-      image: "https://images.pexels.com/photos/2529149/pexels-photo-2529149.jpeg?auto=compress&cs=tinysrgb&w=400",
+      image: "https://images.pexels.com/photos/19090/pexels-photo.jpg",
       colors: ['#8B4513', '#000000', '#FFFFFF'],
       isNew: false,
       isBestseller: true
@@ -80,7 +80,7 @@ const ProductCatalog: React.FC = () => {
       discount: 50,
       rating: 4.8,
       reviews: 167,
-      image: "https://images.pexels.com/photos/1464625/pexels-photo-1464625.jpeg?auto=compress&cs=tinysrgb&w=400",
+      image: "https://images.pexels.com/photos/16918373/pexels-photo-16918373.jpeg",
       colors: ['#228B22', '#000000', '#FFFFFF'],
       isNew: false,
       isBestseller: false
@@ -125,12 +125,12 @@ const ProductCatalog: React.FC = () => {
     <section id="catalog" className="py-16 bg-gradient-to-b from-white to-gray-50" ref={catalogRef}>
       <div className="container mx-auto px-6 md:px-8 lg:px-12 xl:px-16 max-w-7xl">
         <div className={`text-center mb-12 transition-all duration-1000 ${catalogVisible ? 'animate-fade-in-up' : 'opacity-0 translate-y-10'}`}>
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Katalog Produk Terbaru
-          </h2>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Koleksi lengkap sepatu premium dengan diskon hingga 50% untuk waktu terbatas!
-          </p>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+            Sepatu Keren, Harga Miring!
+            </h2>
+            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+            Upgrade gaya lo sekarang! Semua sepatu lagi diskon gede-gedean sampe 50%. Jangan sampe kehabisan, buruan cek &amp; borong!
+            </p>
         </div>
 
         {/* Flash Sale Banner */}

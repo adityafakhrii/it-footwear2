@@ -8,23 +8,23 @@ const Problem: React.FC = () => {
   const problems = [
     {
       icon: <AlertTriangle className="h-8 w-8 text-red-500" />,
-      title: "Sepatu Cepat Rusak",
-      description: "Kualitas buruk membuat sepatu tidak tahan lama dan cepat robek"
+      title: "Baru Dipake, Udah Jebol!",
+      description: "Sepatu gampang rusak, padahal baru aja dipamerin ke temen. Auto malu!"
     },
     {
       icon: <Frown className="h-8 w-8 text-red-500" />,
-      title: "Tidak Nyaman",
-      description: "Kaki sakit dan lecet karena material yang tidak breathable"
+      title: "Bikin Kaki Ngambek",
+      description: "Jalan dikit aja udah pegel, kaki lecet, boro-boro mau nongkrong lama."
     },
     {
       icon: <Clock className="h-8 w-8 text-red-500" />,
-      title: "Gaya Ketinggalan Zaman",
-      description: "Desain yang itu-itu saja, tidak cocok untuk anak muda masa kini"
+      title: "Modelnya B aja",
+      description: "Desainnya gitu-gitu doang, nggak bikin standout di feed IG lo."
     },
     {
       icon: <DollarSign className="h-8 w-8 text-red-500" />,
-      title: "Harga Mahal Tanpa Nilai",
-      description: "Bayar mahal tapi dapat kualitas yang mengecewakan"
+      title: "Mahal, Tapi Zonk",
+      description: "Udah keluar duit banyak, eh kualitasnya nggak sebanding. Nyesek!"
     }
   ];
 
@@ -32,12 +32,12 @@ const Problem: React.FC = () => {
     <section id="problem" className="py-16 bg-gradient-to-b from-gray-50 to-white" ref={problemRef}>
       <div className="container mx-auto px-6 md:px-8 lg:px-12 xl:px-16 max-w-7xl">
         <div className={`text-center mb-12 transition-all duration-1000 ${problemVisible ? 'animate-fade-in-up' : 'opacity-0 translate-y-10'}`}>
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Capek dengan Sepatu yang Begini?
-          </h2>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Kamu pasti pernah merasakan frustasi ini. Saatnya beralih ke solusi yang lebih baik!
-          </p>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+            Sepatu Lo Gitu-Gitu Aja?
+            </h2>
+            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+            Udah bosen sama sepatu yang gampang rusak, bikin malu, dan nggak vibes banget? Saatnya upgrade biar makin pede nongkrong & eksis!
+            </p>
         </div>
 
         <div className={`grid md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-10 transition-all duration-1000 ${problemVisible ? 'animate-fade-in-up delay-300' : 'opacity-0 translate-y-10'}`}>
